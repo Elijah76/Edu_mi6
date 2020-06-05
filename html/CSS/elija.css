@@ -1,0 +1,36 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+  #welcome-section{
+    color: navy;
+    margin-left: 20px;
+  }
+  
+.blue-box {
+    
+    color:black;
+    padding: 20px;
+    margin: 10px;
+  }
+  #me {
+    float: right;
+    clear: right;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    margin: 20px;
+}
+header{
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif ;
+          padding: 60px;
+          text-align: center;
+          background: #1abc9c;
+          color: white;
+          font-size: 30px;
+        }

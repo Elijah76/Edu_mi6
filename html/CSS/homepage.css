@@ -1,0 +1,89 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{background-color:#2e76cf;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;}
+header h1{color: white;
+    padding:6px 12px;
+    border:8px solid white;
+    border-radius:30px;
+    display: inline-block;}
+ nav ul {
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+overflow: hidden;
+background-color: grey;
+}
+.nav{background-color:#173b67;
+    padding: 20px;
+    position: sticky;
+	top: 134px;}
+	
+.nav ul{white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;}
+.nav li a{text-decoration: none;
+         color:yellowgreen; 
+		}
+		
+.nav li{width:20%;
+    display: inline-block;
+    font-size: 24px;}
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+  }
+
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  .row {
+	display: flex;
+  }
+  
+  .column {
+	flex: 33.33%;
+	padding: 5px;
+  }
+  @media screen and (max-width: 500px) {
+	.column {
+	  width: 100%;
+	}
+  }
+
+  h3 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+
+  h4 {
+	color: navy;
+	margin-right: 20px;
+}
+  
+
+.bee h2{color: #f63232;
+	font-size: 48px;}
+	
+
+
+    footer{text-align: center;
+        padding:10px;
+        background-color:#2e76cf;
+        font-size: 18px;
+        font-weight: bold;
+        color: #ffffff;
+}
+
